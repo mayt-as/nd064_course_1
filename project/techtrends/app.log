@@ -1,0 +1,11 @@
+INFO:werkzeug: * Running on http://127.0.0.1:3111/ (Press CTRL+C to quit)
+INFO:app:main request successfull
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2021 23:45:57] "GET / HTTP/1.1" 200 -
+INFO:app:healthz request successfull
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2021 23:46:02] "GET /healthz HTTP/1.1" 200 -
+INFO:app:main request successfull
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2021 23:46:11] "GET / HTTP/1.1" 200 -
+INFO:app:article 2020 CNCF Annual Report retrieved
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2021 23:46:13] "GET /1 HTTP/1.1" 200 -
+INFO:app:404 : article doesn't exist
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2021 23:46:17] "GET /8 HTTP/1.1" 404 -
